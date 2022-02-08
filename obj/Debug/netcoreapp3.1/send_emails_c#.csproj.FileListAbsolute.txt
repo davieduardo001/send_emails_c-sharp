@@ -1,0 +1,13 @@
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#.deps.json
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#.runtimeconfig.json
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#.runtimeconfig.dev.json
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#.dll
+/home/davi/Documents/projects/send_emails_c#/bin/Debug/netcoreapp3.1/send_emails_c#.pdb
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.csprojAssemblyReference.cache
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.AssemblyInfoInputs.cache
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.AssemblyInfo.cs
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.csproj.CoreCompileInputs.cache
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.dll
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.pdb
+/home/davi/Documents/projects/send_emails_c#/obj/Debug/netcoreapp3.1/send_emails_c#.genruntimeconfig.cache
