@@ -12,12 +12,16 @@ namespace send_emails_c_
             string email_title;
             string email_message;
             string email_sender_password;
+            string addressee_email;
 
             Console.WriteLine("What is the email title? ");
             email_title = Console.ReadLine();
 
             Console.WriteLine("What is the message? ");
             email_message = Console.ReadLine();
+
+            Console.WriteLine("Who is this email for? ");
+            addressee_email = Console.ReadLine();
 
             Console.WriteLine("What is the password of the sender: ");
             email_sender_password = Console.ReadLine();
@@ -27,7 +31,7 @@ namespace send_emails_c_
 
             try
             { 
-                MailMessage message = new MailMessage("", ""); // sender email addressee email
+                MailMessage message = new MailMessage("", addressee_email); // sender email and addressee email
 
                 message.Subject = "";
                 message.IsBodyHtml = true;
@@ -38,7 +42,7 @@ namespace send_emails_c_
                 SmtpClient smtp_client = new SmtpClient("smtp.gmail.com", 587);
 
                 smtp_client.UseDefaultCredentials = false;
-                smtp_client.Credentials = new NetworkCredential("", ""); // Email and passoword of the sender
+                smtp_client.Credentials = new NetworkCredential("", email_sender_password); // Email and passoword of the sender
 
                 smtp_client.EnableSsl = true;
 
